@@ -14,8 +14,12 @@
 .settings__setting-column:last-child {
   color: var(--grey);
 }
+.settings-list:first-child {
+  margin-bottom: 60px;
+}
 .settings-list:last-child {
-  margin-top: 40px;
+  padding-top: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 #settings-screen {
   height: 130vh;
